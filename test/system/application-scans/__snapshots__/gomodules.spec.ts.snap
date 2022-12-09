@@ -1,0 +1,1900 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`gomodules binaries scanning return plugin result when Go binary cannot be parsed do not break layer iterator 1`] = `
+Object {
+  "scanResults": Array [
+    Object {
+      "facts": Array [
+        Object {
+          "data": Object {
+            "graph": Object {
+              "nodes": Array [
+                Object {
+                  "deps": Array [
+                    Object {
+                      "nodeId": "alpine-baselayout/alpine-baselayout@3.2.0-r6",
+                    },
+                    Object {
+                      "nodeId": "alpine-keys/alpine-keys@2.2-r0",
+                    },
+                    Object {
+                      "nodeId": "apk-tools/apk-tools@2.10.5-r1",
+                    },
+                    Object {
+                      "nodeId": "busybox/busybox@1.31.1-r16|2",
+                    },
+                    Object {
+                      "nodeId": "busybox/ssl_client@1.31.1-r16",
+                    },
+                    Object {
+                      "nodeId": "ca-certificates/ca-certificates-bundle@20191127-r2",
+                    },
+                    Object {
+                      "nodeId": "libc-dev/libc-utils@0.7.2-r3",
+                    },
+                    Object {
+                      "nodeId": "libtls-standalone/libtls-standalone@2.9.1-r1|2",
+                    },
+                    Object {
+                      "nodeId": "musl/musl@1.1.24-r8",
+                    },
+                    Object {
+                      "nodeId": "musl/musl-utils@1.1.24-r8|2",
+                    },
+                    Object {
+                      "nodeId": "openssl/libcrypto1.1@1.1.1g-r0|2",
+                    },
+                    Object {
+                      "nodeId": "openssl/libssl1.1@1.1.1g-r0|2",
+                    },
+                    Object {
+                      "nodeId": "pax-utils/scanelf@1.2.6-r0|2",
+                    },
+                    Object {
+                      "nodeId": "zlib/zlib@1.2.11-r3|2",
+                    },
+                  ],
+                  "nodeId": "root-node",
+                  "pkgId": "docker-image|yq.tar@",
+                },
+                Object {
+                  "deps": Array [],
+                  "nodeId": "busybox/busybox@1.31.1-r16|1",
+                  "pkgId": "busybox/busybox@1.31.1-r16",
+                },
+                Object {
+                  "deps": Array [
+                    Object {
+                      "nodeId": "musl/musl@1.1.24-r8",
+                    },
+                  ],
+                  "nodeId": "busybox/busybox@1.31.1-r16|2",
+                  "pkgId": "busybox/busybox@1.31.1-r16",
+                },
+                Object {
+                  "deps": Array [],
+                  "nodeId": "musl/musl@1.1.24-r8",
+                  "pkgId": "musl/musl@1.1.24-r8",
+                },
+                Object {
+                  "deps": Array [
+                    Object {
+                      "nodeId": "busybox/busybox@1.31.1-r16|1",
+                    },
+                    Object {
+                      "nodeId": "musl/musl@1.1.24-r8",
+                    },
+                  ],
+                  "nodeId": "alpine-baselayout/alpine-baselayout@3.2.0-r6",
+                  "pkgId": "alpine-baselayout/alpine-baselayout@3.2.0-r6",
+                },
+                Object {
+                  "deps": Array [],
+                  "nodeId": "alpine-keys/alpine-keys@2.2-r0",
+                  "pkgId": "alpine-keys/alpine-keys@2.2-r0",
+                },
+                Object {
+                  "deps": Array [],
+                  "nodeId": "openssl/libcrypto1.1@1.1.1g-r0|1",
+                  "pkgId": "openssl/libcrypto1.1@1.1.1g-r0",
+                },
+                Object {
+                  "deps": Array [
+                    Object {
+                      "nodeId": "musl/musl@1.1.24-r8",
+                    },
+                  ],
+                  "nodeId": "openssl/libcrypto1.1@1.1.1g-r0|2",
+                  "pkgId": "openssl/libcrypto1.1@1.1.1g-r0",
+                },
+                Object {
+                  "deps": Array [],
+                  "nodeId": "openssl/libssl1.1@1.1.1g-r0|1",
+                  "pkgId": "openssl/libssl1.1@1.1.1g-r0",
+                },
+                Object {
+                  "deps": Array [
+                    Object {
+                      "nodeId": "musl/musl@1.1.24-r8",
+                    },
+                    Object {
+                      "nodeId": "openssl/libcrypto1.1@1.1.1g-r0|1",
+                    },
+                  ],
+                  "nodeId": "openssl/libssl1.1@1.1.1g-r0|2",
+                  "pkgId": "openssl/libssl1.1@1.1.1g-r0",
+                },
+                Object {
+                  "deps": Array [],
+                  "nodeId": "zlib/zlib@1.2.11-r3|1",
+                  "pkgId": "zlib/zlib@1.2.11-r3",
+                },
+                Object {
+                  "deps": Array [
+                    Object {
+                      "nodeId": "musl/musl@1.1.24-r8",
+                    },
+                  ],
+                  "nodeId": "zlib/zlib@1.2.11-r3|2",
+                  "pkgId": "zlib/zlib@1.2.11-r3",
+                },
+                Object {
+                  "deps": Array [
+                    Object {
+                      "nodeId": "musl/musl@1.1.24-r8",
+                    },
+                    Object {
+                      "nodeId": "openssl/libcrypto1.1@1.1.1g-r0|1",
+                    },
+                    Object {
+                      "nodeId": "openssl/libssl1.1@1.1.1g-r0|1",
+                    },
+                    Object {
+                      "nodeId": "zlib/zlib@1.2.11-r3|1",
+                    },
+                  ],
+                  "nodeId": "apk-tools/apk-tools@2.10.5-r1",
+                  "pkgId": "apk-tools/apk-tools@2.10.5-r1",
+                },
+                Object {
+                  "deps": Array [],
+                  "nodeId": "libtls-standalone/libtls-standalone@2.9.1-r1|1",
+                  "pkgId": "libtls-standalone/libtls-standalone@2.9.1-r1",
+                },
+                Object {
+                  "deps": Array [
+                    Object {
+                      "nodeId": "ca-certificates/ca-certificates-bundle@20191127-r2",
+                    },
+                    Object {
+                      "nodeId": "musl/musl@1.1.24-r8",
+                    },
+                    Object {
+                      "nodeId": "openssl/libcrypto1.1@1.1.1g-r0|1",
+                    },
+                    Object {
+                      "nodeId": "openssl/libssl1.1@1.1.1g-r0|1",
+                    },
+                  ],
+                  "nodeId": "libtls-standalone/libtls-standalone@2.9.1-r1|2",
+                  "pkgId": "libtls-standalone/libtls-standalone@2.9.1-r1",
+                },
+                Object {
+                  "deps": Array [
+                    Object {
+                      "nodeId": "libtls-standalone/libtls-standalone@2.9.1-r1|1",
+                    },
+                    Object {
+                      "nodeId": "musl/musl@1.1.24-r8",
+                    },
+                  ],
+                  "nodeId": "busybox/ssl_client@1.31.1-r16",
+                  "pkgId": "busybox/ssl_client@1.31.1-r16",
+                },
+                Object {
+                  "deps": Array [],
+                  "nodeId": "ca-certificates/ca-certificates-bundle@20191127-r2",
+                  "pkgId": "ca-certificates/ca-certificates-bundle@20191127-r2",
+                },
+                Object {
+                  "deps": Array [],
+                  "nodeId": "musl/musl-utils@1.1.24-r8|1",
+                  "pkgId": "musl/musl-utils@1.1.24-r8",
+                },
+                Object {
+                  "deps": Array [
+                    Object {
+                      "nodeId": "musl/musl@1.1.24-r8",
+                    },
+                    Object {
+                      "nodeId": "pax-utils/scanelf@1.2.6-r0|1",
+                    },
+                  ],
+                  "nodeId": "musl/musl-utils@1.1.24-r8|2",
+                  "pkgId": "musl/musl-utils@1.1.24-r8",
+                },
+                Object {
+                  "deps": Array [
+                    Object {
+                      "nodeId": "musl/musl-utils@1.1.24-r8|1",
+                    },
+                  ],
+                  "nodeId": "libc-dev/libc-utils@0.7.2-r3",
+                  "pkgId": "libc-dev/libc-utils@0.7.2-r3",
+                },
+                Object {
+                  "deps": Array [],
+                  "nodeId": "pax-utils/scanelf@1.2.6-r0|1",
+                  "pkgId": "pax-utils/scanelf@1.2.6-r0",
+                },
+                Object {
+                  "deps": Array [
+                    Object {
+                      "nodeId": "musl/musl@1.1.24-r8",
+                    },
+                  ],
+                  "nodeId": "pax-utils/scanelf@1.2.6-r0|2",
+                  "pkgId": "pax-utils/scanelf@1.2.6-r0",
+                },
+              ],
+              "rootNodeId": "root-node",
+            },
+            "pkgManager": Object {
+              "name": "apk",
+              "repositories": Array [
+                Object {
+                  "alias": "alpine:3.12.0",
+                },
+              ],
+            },
+            "pkgs": Array [
+              Object {
+                "id": "docker-image|yq.tar@",
+                "info": Object {
+                  "name": "docker-image|yq.tar",
+                  "version": undefined,
+                },
+              },
+              Object {
+                "id": "busybox/busybox@1.31.1-r16",
+                "info": Object {
+                  "name": "busybox/busybox",
+                  "version": "1.31.1-r16",
+                },
+              },
+              Object {
+                "id": "musl/musl@1.1.24-r8",
+                "info": Object {
+                  "name": "musl/musl",
+                  "version": "1.1.24-r8",
+                },
+              },
+              Object {
+                "id": "alpine-baselayout/alpine-baselayout@3.2.0-r6",
+                "info": Object {
+                  "name": "alpine-baselayout/alpine-baselayout",
+                  "version": "3.2.0-r6",
+                },
+              },
+              Object {
+                "id": "alpine-keys/alpine-keys@2.2-r0",
+                "info": Object {
+                  "name": "alpine-keys/alpine-keys",
+                  "version": "2.2-r0",
+                },
+              },
+              Object {
+                "id": "openssl/libcrypto1.1@1.1.1g-r0",
+                "info": Object {
+                  "name": "openssl/libcrypto1.1",
+                  "version": "1.1.1g-r0",
+                },
+              },
+              Object {
+                "id": "openssl/libssl1.1@1.1.1g-r0",
+                "info": Object {
+                  "name": "openssl/libssl1.1",
+                  "version": "1.1.1g-r0",
+                },
+              },
+              Object {
+                "id": "zlib/zlib@1.2.11-r3",
+                "info": Object {
+                  "name": "zlib/zlib",
+                  "version": "1.2.11-r3",
+                },
+              },
+              Object {
+                "id": "apk-tools/apk-tools@2.10.5-r1",
+                "info": Object {
+                  "name": "apk-tools/apk-tools",
+                  "version": "2.10.5-r1",
+                },
+              },
+              Object {
+                "id": "libtls-standalone/libtls-standalone@2.9.1-r1",
+                "info": Object {
+                  "name": "libtls-standalone/libtls-standalone",
+                  "version": "2.9.1-r1",
+                },
+              },
+              Object {
+                "id": "busybox/ssl_client@1.31.1-r16",
+                "info": Object {
+                  "name": "busybox/ssl_client",
+                  "version": "1.31.1-r16",
+                },
+              },
+              Object {
+                "id": "ca-certificates/ca-certificates-bundle@20191127-r2",
+                "info": Object {
+                  "name": "ca-certificates/ca-certificates-bundle",
+                  "version": "20191127-r2",
+                },
+              },
+              Object {
+                "id": "musl/musl-utils@1.1.24-r8",
+                "info": Object {
+                  "name": "musl/musl-utils",
+                  "version": "1.1.24-r8",
+                },
+              },
+              Object {
+                "id": "libc-dev/libc-utils@0.7.2-r3",
+                "info": Object {
+                  "name": "libc-dev/libc-utils",
+                  "version": "0.7.2-r3",
+                },
+              },
+              Object {
+                "id": "pax-utils/scanelf@1.2.6-r0",
+                "info": Object {
+                  "name": "pax-utils/scanelf",
+                  "version": "1.2.6-r0",
+                },
+              },
+            ],
+            "schemaVersion": "1.3.0",
+          },
+          "type": "depGraph",
+        },
+        Object {
+          "data": "sha256:0809facff9bd760673e046192ad24a2ee08d451f6dbb6c22552293dc4b15e734",
+          "type": "imageId",
+        },
+        Object {
+          "data": Array [
+            "50644c29ef5a27c9a40c393a73ece2479de78325cae7d762ef3cdc19bf42dd0a.tar",
+            "c1df98c53fe381ef0bd5d7712600a9c4e8e7ac6debbfb0cd3a4c50a4e2e6c5c0.tar",
+            "c1df98c53fe381ef0bd5d7712600a9c4e8e7ac6debbfb0cd3a4c50a4e2e6c5c0.tar",
+            "d24888289f050c75a92d33b77c3a052154ed2c4f61e084b7e63cd007bc8bfb00.tar",
+          ],
+          "type": "imageLayers",
+        },
+        Object {
+          "data": Object {
+            "version": "none",
+          },
+          "type": "imageLabels",
+        },
+        Object {
+          "data": "2020-10-18T21:48:52.642510942Z",
+          "type": "imageCreationTime",
+        },
+        Object {
+          "data": Array [
+            "sha256:50644c29ef5a27c9a40c393a73ece2479de78325cae7d762ef3cdc19bf42dd0a",
+            "sha256:c1df98c53fe381ef0bd5d7712600a9c4e8e7ac6debbfb0cd3a4c50a4e2e6c5c0",
+            "sha256:c1df98c53fe381ef0bd5d7712600a9c4e8e7ac6debbfb0cd3a4c50a4e2e6c5c0",
+            "sha256:d24888289f050c75a92d33b77c3a052154ed2c4f61e084b7e63cd007bc8bfb00",
+          ],
+          "type": "rootFs",
+        },
+        Object {
+          "data": "Alpine Linux v3.12",
+          "type": "imageOsReleasePrettyName",
+        },
+      ],
+      "identity": Object {
+        "args": Object {
+          "platform": "linux/amd64",
+        },
+        "type": "apk",
+      },
+      "target": Object {
+        "image": "docker-image|yq.tar",
+      },
+    },
+  ],
+}
+`;
+
+exports[`gomodules binaries scanning should return expected result 1`] = `
+Object {
+  "scanResults": Array [
+    Object {
+      "facts": Array [
+        Object {
+          "data": Object {
+            "graph": Object {
+              "nodes": Array [
+                Object {
+                  "deps": Array [
+                    Object {
+                      "nodeId": "alpine-baselayout/alpine-baselayout@3.2.0-r6",
+                    },
+                    Object {
+                      "nodeId": "alpine-keys/alpine-keys@2.2-r0",
+                    },
+                    Object {
+                      "nodeId": "apk-tools/apk-tools@2.10.5-r1",
+                    },
+                    Object {
+                      "nodeId": "busybox/busybox@1.31.1-r16|2",
+                    },
+                    Object {
+                      "nodeId": "busybox/ssl_client@1.31.1-r16",
+                    },
+                    Object {
+                      "nodeId": "ca-certificates/ca-certificates-bundle@20191127-r2",
+                    },
+                    Object {
+                      "nodeId": "libc-dev/libc-utils@0.7.2-r3",
+                    },
+                    Object {
+                      "nodeId": "libtls-standalone/libtls-standalone@2.9.1-r1|2",
+                    },
+                    Object {
+                      "nodeId": "musl/musl@1.1.24-r8",
+                    },
+                    Object {
+                      "nodeId": "musl/musl-utils@1.1.24-r8|2",
+                    },
+                    Object {
+                      "nodeId": "openssl/libcrypto1.1@1.1.1g-r0|2",
+                    },
+                    Object {
+                      "nodeId": "openssl/libssl1.1@1.1.1g-r0|2",
+                    },
+                    Object {
+                      "nodeId": "pax-utils/scanelf@1.2.6-r0|2",
+                    },
+                    Object {
+                      "nodeId": "zlib/zlib@1.2.11-r3|2",
+                    },
+                  ],
+                  "nodeId": "root-node",
+                  "pkgId": "docker-image|yq.tar@",
+                },
+                Object {
+                  "deps": Array [],
+                  "nodeId": "busybox/busybox@1.31.1-r16|1",
+                  "pkgId": "busybox/busybox@1.31.1-r16",
+                },
+                Object {
+                  "deps": Array [
+                    Object {
+                      "nodeId": "musl/musl@1.1.24-r8",
+                    },
+                  ],
+                  "nodeId": "busybox/busybox@1.31.1-r16|2",
+                  "pkgId": "busybox/busybox@1.31.1-r16",
+                },
+                Object {
+                  "deps": Array [],
+                  "nodeId": "musl/musl@1.1.24-r8",
+                  "pkgId": "musl/musl@1.1.24-r8",
+                },
+                Object {
+                  "deps": Array [
+                    Object {
+                      "nodeId": "busybox/busybox@1.31.1-r16|1",
+                    },
+                    Object {
+                      "nodeId": "musl/musl@1.1.24-r8",
+                    },
+                  ],
+                  "nodeId": "alpine-baselayout/alpine-baselayout@3.2.0-r6",
+                  "pkgId": "alpine-baselayout/alpine-baselayout@3.2.0-r6",
+                },
+                Object {
+                  "deps": Array [],
+                  "nodeId": "alpine-keys/alpine-keys@2.2-r0",
+                  "pkgId": "alpine-keys/alpine-keys@2.2-r0",
+                },
+                Object {
+                  "deps": Array [],
+                  "nodeId": "openssl/libcrypto1.1@1.1.1g-r0|1",
+                  "pkgId": "openssl/libcrypto1.1@1.1.1g-r0",
+                },
+                Object {
+                  "deps": Array [
+                    Object {
+                      "nodeId": "musl/musl@1.1.24-r8",
+                    },
+                  ],
+                  "nodeId": "openssl/libcrypto1.1@1.1.1g-r0|2",
+                  "pkgId": "openssl/libcrypto1.1@1.1.1g-r0",
+                },
+                Object {
+                  "deps": Array [],
+                  "nodeId": "openssl/libssl1.1@1.1.1g-r0|1",
+                  "pkgId": "openssl/libssl1.1@1.1.1g-r0",
+                },
+                Object {
+                  "deps": Array [
+                    Object {
+                      "nodeId": "musl/musl@1.1.24-r8",
+                    },
+                    Object {
+                      "nodeId": "openssl/libcrypto1.1@1.1.1g-r0|1",
+                    },
+                  ],
+                  "nodeId": "openssl/libssl1.1@1.1.1g-r0|2",
+                  "pkgId": "openssl/libssl1.1@1.1.1g-r0",
+                },
+                Object {
+                  "deps": Array [],
+                  "nodeId": "zlib/zlib@1.2.11-r3|1",
+                  "pkgId": "zlib/zlib@1.2.11-r3",
+                },
+                Object {
+                  "deps": Array [
+                    Object {
+                      "nodeId": "musl/musl@1.1.24-r8",
+                    },
+                  ],
+                  "nodeId": "zlib/zlib@1.2.11-r3|2",
+                  "pkgId": "zlib/zlib@1.2.11-r3",
+                },
+                Object {
+                  "deps": Array [
+                    Object {
+                      "nodeId": "musl/musl@1.1.24-r8",
+                    },
+                    Object {
+                      "nodeId": "openssl/libcrypto1.1@1.1.1g-r0|1",
+                    },
+                    Object {
+                      "nodeId": "openssl/libssl1.1@1.1.1g-r0|1",
+                    },
+                    Object {
+                      "nodeId": "zlib/zlib@1.2.11-r3|1",
+                    },
+                  ],
+                  "nodeId": "apk-tools/apk-tools@2.10.5-r1",
+                  "pkgId": "apk-tools/apk-tools@2.10.5-r1",
+                },
+                Object {
+                  "deps": Array [],
+                  "nodeId": "libtls-standalone/libtls-standalone@2.9.1-r1|1",
+                  "pkgId": "libtls-standalone/libtls-standalone@2.9.1-r1",
+                },
+                Object {
+                  "deps": Array [
+                    Object {
+                      "nodeId": "ca-certificates/ca-certificates-bundle@20191127-r2",
+                    },
+                    Object {
+                      "nodeId": "musl/musl@1.1.24-r8",
+                    },
+                    Object {
+                      "nodeId": "openssl/libcrypto1.1@1.1.1g-r0|1",
+                    },
+                    Object {
+                      "nodeId": "openssl/libssl1.1@1.1.1g-r0|1",
+                    },
+                  ],
+                  "nodeId": "libtls-standalone/libtls-standalone@2.9.1-r1|2",
+                  "pkgId": "libtls-standalone/libtls-standalone@2.9.1-r1",
+                },
+                Object {
+                  "deps": Array [
+                    Object {
+                      "nodeId": "libtls-standalone/libtls-standalone@2.9.1-r1|1",
+                    },
+                    Object {
+                      "nodeId": "musl/musl@1.1.24-r8",
+                    },
+                  ],
+                  "nodeId": "busybox/ssl_client@1.31.1-r16",
+                  "pkgId": "busybox/ssl_client@1.31.1-r16",
+                },
+                Object {
+                  "deps": Array [],
+                  "nodeId": "ca-certificates/ca-certificates-bundle@20191127-r2",
+                  "pkgId": "ca-certificates/ca-certificates-bundle@20191127-r2",
+                },
+                Object {
+                  "deps": Array [],
+                  "nodeId": "musl/musl-utils@1.1.24-r8|1",
+                  "pkgId": "musl/musl-utils@1.1.24-r8",
+                },
+                Object {
+                  "deps": Array [
+                    Object {
+                      "nodeId": "musl/musl@1.1.24-r8",
+                    },
+                    Object {
+                      "nodeId": "pax-utils/scanelf@1.2.6-r0|1",
+                    },
+                  ],
+                  "nodeId": "musl/musl-utils@1.1.24-r8|2",
+                  "pkgId": "musl/musl-utils@1.1.24-r8",
+                },
+                Object {
+                  "deps": Array [
+                    Object {
+                      "nodeId": "musl/musl-utils@1.1.24-r8|1",
+                    },
+                  ],
+                  "nodeId": "libc-dev/libc-utils@0.7.2-r3",
+                  "pkgId": "libc-dev/libc-utils@0.7.2-r3",
+                },
+                Object {
+                  "deps": Array [],
+                  "nodeId": "pax-utils/scanelf@1.2.6-r0|1",
+                  "pkgId": "pax-utils/scanelf@1.2.6-r0",
+                },
+                Object {
+                  "deps": Array [
+                    Object {
+                      "nodeId": "musl/musl@1.1.24-r8",
+                    },
+                  ],
+                  "nodeId": "pax-utils/scanelf@1.2.6-r0|2",
+                  "pkgId": "pax-utils/scanelf@1.2.6-r0",
+                },
+              ],
+              "rootNodeId": "root-node",
+            },
+            "pkgManager": Object {
+              "name": "apk",
+              "repositories": Array [
+                Object {
+                  "alias": "alpine:3.12.0",
+                },
+              ],
+            },
+            "pkgs": Array [
+              Object {
+                "id": "docker-image|yq.tar@",
+                "info": Object {
+                  "name": "docker-image|yq.tar",
+                  "version": undefined,
+                },
+              },
+              Object {
+                "id": "busybox/busybox@1.31.1-r16",
+                "info": Object {
+                  "name": "busybox/busybox",
+                  "version": "1.31.1-r16",
+                },
+              },
+              Object {
+                "id": "musl/musl@1.1.24-r8",
+                "info": Object {
+                  "name": "musl/musl",
+                  "version": "1.1.24-r8",
+                },
+              },
+              Object {
+                "id": "alpine-baselayout/alpine-baselayout@3.2.0-r6",
+                "info": Object {
+                  "name": "alpine-baselayout/alpine-baselayout",
+                  "version": "3.2.0-r6",
+                },
+              },
+              Object {
+                "id": "alpine-keys/alpine-keys@2.2-r0",
+                "info": Object {
+                  "name": "alpine-keys/alpine-keys",
+                  "version": "2.2-r0",
+                },
+              },
+              Object {
+                "id": "openssl/libcrypto1.1@1.1.1g-r0",
+                "info": Object {
+                  "name": "openssl/libcrypto1.1",
+                  "version": "1.1.1g-r0",
+                },
+              },
+              Object {
+                "id": "openssl/libssl1.1@1.1.1g-r0",
+                "info": Object {
+                  "name": "openssl/libssl1.1",
+                  "version": "1.1.1g-r0",
+                },
+              },
+              Object {
+                "id": "zlib/zlib@1.2.11-r3",
+                "info": Object {
+                  "name": "zlib/zlib",
+                  "version": "1.2.11-r3",
+                },
+              },
+              Object {
+                "id": "apk-tools/apk-tools@2.10.5-r1",
+                "info": Object {
+                  "name": "apk-tools/apk-tools",
+                  "version": "2.10.5-r1",
+                },
+              },
+              Object {
+                "id": "libtls-standalone/libtls-standalone@2.9.1-r1",
+                "info": Object {
+                  "name": "libtls-standalone/libtls-standalone",
+                  "version": "2.9.1-r1",
+                },
+              },
+              Object {
+                "id": "busybox/ssl_client@1.31.1-r16",
+                "info": Object {
+                  "name": "busybox/ssl_client",
+                  "version": "1.31.1-r16",
+                },
+              },
+              Object {
+                "id": "ca-certificates/ca-certificates-bundle@20191127-r2",
+                "info": Object {
+                  "name": "ca-certificates/ca-certificates-bundle",
+                  "version": "20191127-r2",
+                },
+              },
+              Object {
+                "id": "musl/musl-utils@1.1.24-r8",
+                "info": Object {
+                  "name": "musl/musl-utils",
+                  "version": "1.1.24-r8",
+                },
+              },
+              Object {
+                "id": "libc-dev/libc-utils@0.7.2-r3",
+                "info": Object {
+                  "name": "libc-dev/libc-utils",
+                  "version": "0.7.2-r3",
+                },
+              },
+              Object {
+                "id": "pax-utils/scanelf@1.2.6-r0",
+                "info": Object {
+                  "name": "pax-utils/scanelf",
+                  "version": "1.2.6-r0",
+                },
+              },
+            ],
+            "schemaVersion": "1.3.0",
+          },
+          "type": "depGraph",
+        },
+        Object {
+          "data": "sha256:0809facff9bd760673e046192ad24a2ee08d451f6dbb6c22552293dc4b15e734",
+          "type": "imageId",
+        },
+        Object {
+          "data": Array [
+            "50644c29ef5a27c9a40c393a73ece2479de78325cae7d762ef3cdc19bf42dd0a.tar",
+            "c1df98c53fe381ef0bd5d7712600a9c4e8e7ac6debbfb0cd3a4c50a4e2e6c5c0.tar",
+            "c1df98c53fe381ef0bd5d7712600a9c4e8e7ac6debbfb0cd3a4c50a4e2e6c5c0.tar",
+            "d24888289f050c75a92d33b77c3a052154ed2c4f61e084b7e63cd007bc8bfb00.tar",
+          ],
+          "type": "imageLayers",
+        },
+        Object {
+          "data": Object {
+            "version": "none",
+          },
+          "type": "imageLabels",
+        },
+        Object {
+          "data": "2020-10-18T21:48:52.642510942Z",
+          "type": "imageCreationTime",
+        },
+        Object {
+          "data": Array [
+            "sha256:50644c29ef5a27c9a40c393a73ece2479de78325cae7d762ef3cdc19bf42dd0a",
+            "sha256:c1df98c53fe381ef0bd5d7712600a9c4e8e7ac6debbfb0cd3a4c50a4e2e6c5c0",
+            "sha256:c1df98c53fe381ef0bd5d7712600a9c4e8e7ac6debbfb0cd3a4c50a4e2e6c5c0",
+            "sha256:d24888289f050c75a92d33b77c3a052154ed2c4f61e084b7e63cd007bc8bfb00",
+          ],
+          "type": "rootFs",
+        },
+        Object {
+          "data": "Alpine Linux v3.12",
+          "type": "imageOsReleasePrettyName",
+        },
+      ],
+      "identity": Object {
+        "args": Object {
+          "platform": "linux/amd64",
+        },
+        "type": "apk",
+      },
+      "target": Object {
+        "image": "docker-image|yq.tar",
+      },
+    },
+    Object {
+      "facts": Array [
+        Object {
+          "data": Object {
+            "graph": Object {
+              "nodes": Array [
+                Object {
+                  "deps": Array [
+                    Object {
+                      "nodeId": "github.com/fatih/color@v1.9.0",
+                    },
+                    Object {
+                      "nodeId": "github.com/goccy/go-yaml/token@v1.8.1",
+                    },
+                    Object {
+                      "nodeId": "github.com/goccy/go-yaml/scanner@v1.8.1",
+                    },
+                    Object {
+                      "nodeId": "github.com/goccy/go-yaml/lexer@v1.8.1",
+                    },
+                    Object {
+                      "nodeId": "github.com/goccy/go-yaml/ast@v1.8.1",
+                    },
+                    Object {
+                      "nodeId": "github.com/goccy/go-yaml/printer@v1.8.1",
+                    },
+                    Object {
+                      "nodeId": "github.com/kylelemons/godebug/diff@v1.1.0",
+                    },
+                    Object {
+                      "nodeId": "github.com/mattn/go-colorable@v0.1.7",
+                    },
+                    Object {
+                      "nodeId": "github.com/mattn/go-isatty@v0.0.12",
+                    },
+                    Object {
+                      "nodeId": "github.com/pkg/errors@v0.9.1",
+                    },
+                    Object {
+                      "nodeId": "github.com/spf13/cobra@v1.0.0",
+                    },
+                    Object {
+                      "nodeId": "github.com/spf13/pflag@v1.0.5",
+                    },
+                    Object {
+                      "nodeId": "golang.org/x/sys/unix@v0.0.0-20200905004654-be1d3432aa8f",
+                    },
+                    Object {
+                      "nodeId": "golang.org/x/xerrors@v0.0.0-20200804184101-5ec99f83aff1",
+                    },
+                    Object {
+                      "nodeId": "gopkg.in/op/go-logging.v1@v1.0.0-20160211212156-b2cb9fa56473",
+                    },
+                    Object {
+                      "nodeId": "gopkg.in/yaml.v3@v3.0.0-20200615113413-eeeca48fe776",
+                    },
+                  ],
+                  "nodeId": "root-node",
+                  "pkgId": "github.com/mikefarah/yq/v3@",
+                },
+                Object {
+                  "deps": Array [],
+                  "nodeId": "github.com/fatih/color@v1.9.0",
+                  "pkgId": "github.com/fatih/color@v1.9.0",
+                },
+                Object {
+                  "deps": Array [],
+                  "nodeId": "github.com/goccy/go-yaml/token@v1.8.1",
+                  "pkgId": "github.com/goccy/go-yaml/token@v1.8.1",
+                },
+                Object {
+                  "deps": Array [],
+                  "nodeId": "github.com/goccy/go-yaml/scanner@v1.8.1",
+                  "pkgId": "github.com/goccy/go-yaml/scanner@v1.8.1",
+                },
+                Object {
+                  "deps": Array [],
+                  "nodeId": "github.com/goccy/go-yaml/lexer@v1.8.1",
+                  "pkgId": "github.com/goccy/go-yaml/lexer@v1.8.1",
+                },
+                Object {
+                  "deps": Array [],
+                  "nodeId": "github.com/goccy/go-yaml/ast@v1.8.1",
+                  "pkgId": "github.com/goccy/go-yaml/ast@v1.8.1",
+                },
+                Object {
+                  "deps": Array [],
+                  "nodeId": "github.com/goccy/go-yaml/printer@v1.8.1",
+                  "pkgId": "github.com/goccy/go-yaml/printer@v1.8.1",
+                },
+                Object {
+                  "deps": Array [],
+                  "nodeId": "github.com/kylelemons/godebug/diff@v1.1.0",
+                  "pkgId": "github.com/kylelemons/godebug/diff@v1.1.0",
+                },
+                Object {
+                  "deps": Array [],
+                  "nodeId": "github.com/mattn/go-colorable@v0.1.7",
+                  "pkgId": "github.com/mattn/go-colorable@v0.1.7",
+                },
+                Object {
+                  "deps": Array [],
+                  "nodeId": "github.com/mattn/go-isatty@v0.0.12",
+                  "pkgId": "github.com/mattn/go-isatty@v0.0.12",
+                },
+                Object {
+                  "deps": Array [],
+                  "nodeId": "github.com/pkg/errors@v0.9.1",
+                  "pkgId": "github.com/pkg/errors@v0.9.1",
+                },
+                Object {
+                  "deps": Array [],
+                  "nodeId": "github.com/spf13/cobra@v1.0.0",
+                  "pkgId": "github.com/spf13/cobra@v1.0.0",
+                },
+                Object {
+                  "deps": Array [],
+                  "nodeId": "github.com/spf13/pflag@v1.0.5",
+                  "pkgId": "github.com/spf13/pflag@v1.0.5",
+                },
+                Object {
+                  "deps": Array [],
+                  "nodeId": "golang.org/x/sys/unix@v0.0.0-20200905004654-be1d3432aa8f",
+                  "pkgId": "golang.org/x/sys/unix@v0.0.0-20200905004654-be1d3432aa8f",
+                },
+                Object {
+                  "deps": Array [],
+                  "nodeId": "golang.org/x/xerrors@v0.0.0-20200804184101-5ec99f83aff1",
+                  "pkgId": "golang.org/x/xerrors@v0.0.0-20200804184101-5ec99f83aff1",
+                },
+                Object {
+                  "deps": Array [],
+                  "nodeId": "gopkg.in/op/go-logging.v1@v1.0.0-20160211212156-b2cb9fa56473",
+                  "pkgId": "gopkg.in/op/go-logging.v1@v1.0.0-20160211212156-b2cb9fa56473",
+                },
+                Object {
+                  "deps": Array [],
+                  "nodeId": "gopkg.in/yaml.v3@v3.0.0-20200615113413-eeeca48fe776",
+                  "pkgId": "gopkg.in/yaml.v3@v3.0.0-20200615113413-eeeca48fe776",
+                },
+              ],
+              "rootNodeId": "root-node",
+            },
+            "pkgManager": Object {
+              "name": "gomodules",
+            },
+            "pkgs": Array [
+              Object {
+                "id": "github.com/mikefarah/yq/v3@",
+                "info": Object {
+                  "name": "github.com/mikefarah/yq/v3",
+                },
+              },
+              Object {
+                "id": "github.com/fatih/color@v1.9.0",
+                "info": Object {
+                  "name": "github.com/fatih/color",
+                  "version": "v1.9.0",
+                },
+              },
+              Object {
+                "id": "github.com/goccy/go-yaml/token@v1.8.1",
+                "info": Object {
+                  "name": "github.com/goccy/go-yaml/token",
+                  "version": "v1.8.1",
+                },
+              },
+              Object {
+                "id": "github.com/goccy/go-yaml/scanner@v1.8.1",
+                "info": Object {
+                  "name": "github.com/goccy/go-yaml/scanner",
+                  "version": "v1.8.1",
+                },
+              },
+              Object {
+                "id": "github.com/goccy/go-yaml/lexer@v1.8.1",
+                "info": Object {
+                  "name": "github.com/goccy/go-yaml/lexer",
+                  "version": "v1.8.1",
+                },
+              },
+              Object {
+                "id": "github.com/goccy/go-yaml/ast@v1.8.1",
+                "info": Object {
+                  "name": "github.com/goccy/go-yaml/ast",
+                  "version": "v1.8.1",
+                },
+              },
+              Object {
+                "id": "github.com/goccy/go-yaml/printer@v1.8.1",
+                "info": Object {
+                  "name": "github.com/goccy/go-yaml/printer",
+                  "version": "v1.8.1",
+                },
+              },
+              Object {
+                "id": "github.com/kylelemons/godebug/diff@v1.1.0",
+                "info": Object {
+                  "name": "github.com/kylelemons/godebug/diff",
+                  "version": "v1.1.0",
+                },
+              },
+              Object {
+                "id": "github.com/mattn/go-colorable@v0.1.7",
+                "info": Object {
+                  "name": "github.com/mattn/go-colorable",
+                  "version": "v0.1.7",
+                },
+              },
+              Object {
+                "id": "github.com/mattn/go-isatty@v0.0.12",
+                "info": Object {
+                  "name": "github.com/mattn/go-isatty",
+                  "version": "v0.0.12",
+                },
+              },
+              Object {
+                "id": "github.com/pkg/errors@v0.9.1",
+                "info": Object {
+                  "name": "github.com/pkg/errors",
+                  "version": "v0.9.1",
+                },
+              },
+              Object {
+                "id": "github.com/spf13/cobra@v1.0.0",
+                "info": Object {
+                  "name": "github.com/spf13/cobra",
+                  "version": "v1.0.0",
+                },
+              },
+              Object {
+                "id": "github.com/spf13/pflag@v1.0.5",
+                "info": Object {
+                  "name": "github.com/spf13/pflag",
+                  "version": "v1.0.5",
+                },
+              },
+              Object {
+                "id": "golang.org/x/sys/unix@v0.0.0-20200905004654-be1d3432aa8f",
+                "info": Object {
+                  "name": "golang.org/x/sys/unix",
+                  "version": "v0.0.0-20200905004654-be1d3432aa8f",
+                },
+              },
+              Object {
+                "id": "golang.org/x/xerrors@v0.0.0-20200804184101-5ec99f83aff1",
+                "info": Object {
+                  "name": "golang.org/x/xerrors",
+                  "version": "v0.0.0-20200804184101-5ec99f83aff1",
+                },
+              },
+              Object {
+                "id": "gopkg.in/op/go-logging.v1@v1.0.0-20160211212156-b2cb9fa56473",
+                "info": Object {
+                  "name": "gopkg.in/op/go-logging.v1",
+                  "version": "v1.0.0-20160211212156-b2cb9fa56473",
+                },
+              },
+              Object {
+                "id": "gopkg.in/yaml.v3@v3.0.0-20200615113413-eeeca48fe776",
+                "info": Object {
+                  "name": "gopkg.in/yaml.v3",
+                  "version": "v3.0.0-20200615113413-eeeca48fe776",
+                },
+              },
+            ],
+            "schemaVersion": "1.3.0",
+          },
+          "type": "depGraph",
+        },
+        Object {
+          "data": "sha256:0809facff9bd760673e046192ad24a2ee08d451f6dbb6c22552293dc4b15e734",
+          "type": "imageId",
+        },
+      ],
+      "identity": Object {
+        "targetFile": "/usr/bin/yq",
+        "type": "gomodules",
+      },
+      "target": Object {
+        "image": "docker-image|yq.tar",
+      },
+    },
+  ],
+}
+`;
+
+exports[`parse go modules from various versions of compiled binaries go 1.17 1`] = `
+Object {
+  "scanResults": Array [
+    Object {
+      "facts": Array [
+        Object {
+          "data": Object {
+            "graph": Object {
+              "nodes": Array [
+                Object {
+                  "deps": Array [],
+                  "nodeId": "root-node",
+                  "pkgId": "docker-image|testgo-1.17.tar@",
+                },
+              ],
+              "rootNodeId": "root-node",
+            },
+            "pkgManager": Object {
+              "name": "linux",
+              "repositories": Array [
+                Object {
+                  "alias": "unknown:0.0",
+                },
+              ],
+            },
+            "pkgs": Array [
+              Object {
+                "id": "docker-image|testgo-1.17.tar@",
+                "info": Object {
+                  "name": "docker-image|testgo-1.17.tar",
+                  "version": undefined,
+                },
+              },
+            ],
+            "schemaVersion": "1.3.0",
+          },
+          "type": "depGraph",
+        },
+        Object {
+          "data": "sha256:b5a5cea3c00c659a3bd14bf786644ec0deed22bc30e99260177aca1dc8600449",
+          "type": "imageId",
+        },
+        Object {
+          "data": Array [
+            "7791495be56d53f1d598007e4149b78dcde36768f487040dc6738f6cfab1385f/layer.tar",
+          ],
+          "type": "imageLayers",
+        },
+        Object {
+          "data": "2022-07-10T08:39:42.311434047Z",
+          "type": "imageCreationTime",
+        },
+        Object {
+          "data": Array [
+            "sha256:b3b29ea441a79462c8d942f597c0ef38960379046651c03659ea28d3729fa5ad",
+          ],
+          "type": "rootFs",
+        },
+      ],
+      "identity": Object {
+        "args": Object {
+          "platform": "linux/amd64",
+        },
+        "type": "linux",
+      },
+      "target": Object {
+        "image": "docker-image|testgo-1.17.tar",
+      },
+    },
+    Object {
+      "facts": Array [
+        Object {
+          "data": Object {
+            "graph": Object {
+              "nodes": Array [
+                Object {
+                  "deps": Array [
+                    Object {
+                      "nodeId": "github.com/ghodss/yaml@v1.0.0",
+                    },
+                    Object {
+                      "nodeId": "github.com/go-redis/redis/v9/internal/rand@v9.0.0-beta.1",
+                    },
+                    Object {
+                      "nodeId": "github.com/go-redis/redis/v9/internal@v9.0.0-beta.1",
+                    },
+                    Object {
+                      "nodeId": "github.com/go-redis/redis/v9/internal/util@v9.0.0-beta.1",
+                    },
+                    Object {
+                      "nodeId": "github.com/go-redis/redis/v9/internal/proto@v9.0.0-beta.1",
+                    },
+                    Object {
+                      "nodeId": "github.com/go-redis/redis/v9/internal/pool@v9.0.0-beta.1",
+                    },
+                    Object {
+                      "nodeId": "github.com/go-redis/redis/v9/internal/hscan@v9.0.0-beta.1",
+                    },
+                    Object {
+                      "nodeId": "github.com/go-redis/redis/v9@v9.0.0-beta.1",
+                    },
+                    Object {
+                      "nodeId": "github.com/gorilla/mux@v1.8.0",
+                    },
+                    Object {
+                      "nodeId": "gopkg.in/yaml.v2@v2.4.0",
+                    },
+                  ],
+                  "nodeId": "root-node",
+                  "pkgId": "testgo@",
+                },
+                Object {
+                  "deps": Array [],
+                  "nodeId": "github.com/ghodss/yaml@v1.0.0",
+                  "pkgId": "github.com/ghodss/yaml@v1.0.0",
+                },
+                Object {
+                  "deps": Array [],
+                  "nodeId": "github.com/go-redis/redis/v9/internal/rand@v9.0.0-beta.1",
+                  "pkgId": "github.com/go-redis/redis/v9/internal/rand@v9.0.0-beta.1",
+                },
+                Object {
+                  "deps": Array [],
+                  "nodeId": "github.com/go-redis/redis/v9/internal@v9.0.0-beta.1",
+                  "pkgId": "github.com/go-redis/redis/v9/internal@v9.0.0-beta.1",
+                },
+                Object {
+                  "deps": Array [],
+                  "nodeId": "github.com/go-redis/redis/v9/internal/util@v9.0.0-beta.1",
+                  "pkgId": "github.com/go-redis/redis/v9/internal/util@v9.0.0-beta.1",
+                },
+                Object {
+                  "deps": Array [],
+                  "nodeId": "github.com/go-redis/redis/v9/internal/proto@v9.0.0-beta.1",
+                  "pkgId": "github.com/go-redis/redis/v9/internal/proto@v9.0.0-beta.1",
+                },
+                Object {
+                  "deps": Array [],
+                  "nodeId": "github.com/go-redis/redis/v9/internal/pool@v9.0.0-beta.1",
+                  "pkgId": "github.com/go-redis/redis/v9/internal/pool@v9.0.0-beta.1",
+                },
+                Object {
+                  "deps": Array [],
+                  "nodeId": "github.com/go-redis/redis/v9/internal/hscan@v9.0.0-beta.1",
+                  "pkgId": "github.com/go-redis/redis/v9/internal/hscan@v9.0.0-beta.1",
+                },
+                Object {
+                  "deps": Array [],
+                  "nodeId": "github.com/go-redis/redis/v9@v9.0.0-beta.1",
+                  "pkgId": "github.com/go-redis/redis/v9@v9.0.0-beta.1",
+                },
+                Object {
+                  "deps": Array [],
+                  "nodeId": "github.com/gorilla/mux@v1.8.0",
+                  "pkgId": "github.com/gorilla/mux@v1.8.0",
+                },
+                Object {
+                  "deps": Array [],
+                  "nodeId": "gopkg.in/yaml.v2@v2.4.0",
+                  "pkgId": "gopkg.in/yaml.v2@v2.4.0",
+                },
+              ],
+              "rootNodeId": "root-node",
+            },
+            "pkgManager": Object {
+              "name": "gomodules",
+            },
+            "pkgs": Array [
+              Object {
+                "id": "testgo@",
+                "info": Object {
+                  "name": "testgo",
+                },
+              },
+              Object {
+                "id": "github.com/ghodss/yaml@v1.0.0",
+                "info": Object {
+                  "name": "github.com/ghodss/yaml",
+                  "version": "v1.0.0",
+                },
+              },
+              Object {
+                "id": "github.com/go-redis/redis/v9/internal/rand@v9.0.0-beta.1",
+                "info": Object {
+                  "name": "github.com/go-redis/redis/v9/internal/rand",
+                  "version": "v9.0.0-beta.1",
+                },
+              },
+              Object {
+                "id": "github.com/go-redis/redis/v9/internal@v9.0.0-beta.1",
+                "info": Object {
+                  "name": "github.com/go-redis/redis/v9/internal",
+                  "version": "v9.0.0-beta.1",
+                },
+              },
+              Object {
+                "id": "github.com/go-redis/redis/v9/internal/util@v9.0.0-beta.1",
+                "info": Object {
+                  "name": "github.com/go-redis/redis/v9/internal/util",
+                  "version": "v9.0.0-beta.1",
+                },
+              },
+              Object {
+                "id": "github.com/go-redis/redis/v9/internal/proto@v9.0.0-beta.1",
+                "info": Object {
+                  "name": "github.com/go-redis/redis/v9/internal/proto",
+                  "version": "v9.0.0-beta.1",
+                },
+              },
+              Object {
+                "id": "github.com/go-redis/redis/v9/internal/pool@v9.0.0-beta.1",
+                "info": Object {
+                  "name": "github.com/go-redis/redis/v9/internal/pool",
+                  "version": "v9.0.0-beta.1",
+                },
+              },
+              Object {
+                "id": "github.com/go-redis/redis/v9/internal/hscan@v9.0.0-beta.1",
+                "info": Object {
+                  "name": "github.com/go-redis/redis/v9/internal/hscan",
+                  "version": "v9.0.0-beta.1",
+                },
+              },
+              Object {
+                "id": "github.com/go-redis/redis/v9@v9.0.0-beta.1",
+                "info": Object {
+                  "name": "github.com/go-redis/redis/v9",
+                  "version": "v9.0.0-beta.1",
+                },
+              },
+              Object {
+                "id": "github.com/gorilla/mux@v1.8.0",
+                "info": Object {
+                  "name": "github.com/gorilla/mux",
+                  "version": "v1.8.0",
+                },
+              },
+              Object {
+                "id": "gopkg.in/yaml.v2@v2.4.0",
+                "info": Object {
+                  "name": "gopkg.in/yaml.v2",
+                  "version": "v2.4.0",
+                },
+              },
+            ],
+            "schemaVersion": "1.3.0",
+          },
+          "type": "depGraph",
+        },
+        Object {
+          "data": "sha256:b5a5cea3c00c659a3bd14bf786644ec0deed22bc30e99260177aca1dc8600449",
+          "type": "imageId",
+        },
+      ],
+      "identity": Object {
+        "targetFile": "/testgo",
+        "type": "gomodules",
+      },
+      "target": Object {
+        "image": "docker-image|testgo-1.17.tar",
+      },
+    },
+  ],
+}
+`;
+
+exports[`parse go modules from various versions of compiled binaries go 1.18 1`] = `
+Object {
+  "scanResults": Array [
+    Object {
+      "facts": Array [
+        Object {
+          "data": Object {
+            "graph": Object {
+              "nodes": Array [
+                Object {
+                  "deps": Array [],
+                  "nodeId": "root-node",
+                  "pkgId": "docker-image|testgo-1.18.3.tar@",
+                },
+              ],
+              "rootNodeId": "root-node",
+            },
+            "pkgManager": Object {
+              "name": "linux",
+              "repositories": Array [
+                Object {
+                  "alias": "unknown:0.0",
+                },
+              ],
+            },
+            "pkgs": Array [
+              Object {
+                "id": "docker-image|testgo-1.18.3.tar@",
+                "info": Object {
+                  "name": "docker-image|testgo-1.18.3.tar",
+                  "version": undefined,
+                },
+              },
+            ],
+            "schemaVersion": "1.3.0",
+          },
+          "type": "depGraph",
+        },
+        Object {
+          "data": "sha256:b7f8424ea2e9e94dd34b972998957f3210b9caeb968cb53088dfadb775feefe1",
+          "type": "imageId",
+        },
+        Object {
+          "data": Array [
+            "003416e9133260ad2c4883f982bb2bdccbcc56b1134f34f3c5bbeaa042db2a7a/layer.tar",
+          ],
+          "type": "imageLayers",
+        },
+        Object {
+          "data": "2022-07-10T08:41:36.652919824Z",
+          "type": "imageCreationTime",
+        },
+        Object {
+          "data": Array [
+            "sha256:b3b45e39a2de618d672de8395f83e78ef2cdf15c0a5d08e631bc46d4d5bff3dc",
+          ],
+          "type": "rootFs",
+        },
+      ],
+      "identity": Object {
+        "args": Object {
+          "platform": "linux/amd64",
+        },
+        "type": "linux",
+      },
+      "target": Object {
+        "image": "docker-image|testgo-1.18.3.tar",
+      },
+    },
+    Object {
+      "facts": Array [
+        Object {
+          "data": Object {
+            "graph": Object {
+              "nodes": Array [
+                Object {
+                  "deps": Array [
+                    Object {
+                      "nodeId": "github.com/ghodss/yaml@v1.0.0",
+                    },
+                    Object {
+                      "nodeId": "github.com/go-redis/redis/v9/internal/rand@v9.0.0-beta.1",
+                    },
+                    Object {
+                      "nodeId": "github.com/go-redis/redis/v9/internal@v9.0.0-beta.1",
+                    },
+                    Object {
+                      "nodeId": "github.com/go-redis/redis/v9/internal/proto@v9.0.0-beta.1",
+                    },
+                    Object {
+                      "nodeId": "github.com/go-redis/redis/v9/internal/util@v9.0.0-beta.1",
+                    },
+                    Object {
+                      "nodeId": "github.com/go-redis/redis/v9/internal/pool@v9.0.0-beta.1",
+                    },
+                    Object {
+                      "nodeId": "github.com/go-redis/redis/v9/internal/hscan@v9.0.0-beta.1",
+                    },
+                    Object {
+                      "nodeId": "github.com/go-redis/redis/v9@v9.0.0-beta.1",
+                    },
+                    Object {
+                      "nodeId": "github.com/gorilla/mux@v1.8.0",
+                    },
+                    Object {
+                      "nodeId": "gopkg.in/yaml.v2@v2.4.0",
+                    },
+                  ],
+                  "nodeId": "root-node",
+                  "pkgId": "testgo@",
+                },
+                Object {
+                  "deps": Array [],
+                  "nodeId": "github.com/ghodss/yaml@v1.0.0",
+                  "pkgId": "github.com/ghodss/yaml@v1.0.0",
+                },
+                Object {
+                  "deps": Array [],
+                  "nodeId": "github.com/go-redis/redis/v9/internal/rand@v9.0.0-beta.1",
+                  "pkgId": "github.com/go-redis/redis/v9/internal/rand@v9.0.0-beta.1",
+                },
+                Object {
+                  "deps": Array [],
+                  "nodeId": "github.com/go-redis/redis/v9/internal@v9.0.0-beta.1",
+                  "pkgId": "github.com/go-redis/redis/v9/internal@v9.0.0-beta.1",
+                },
+                Object {
+                  "deps": Array [],
+                  "nodeId": "github.com/go-redis/redis/v9/internal/proto@v9.0.0-beta.1",
+                  "pkgId": "github.com/go-redis/redis/v9/internal/proto@v9.0.0-beta.1",
+                },
+                Object {
+                  "deps": Array [],
+                  "nodeId": "github.com/go-redis/redis/v9/internal/util@v9.0.0-beta.1",
+                  "pkgId": "github.com/go-redis/redis/v9/internal/util@v9.0.0-beta.1",
+                },
+                Object {
+                  "deps": Array [],
+                  "nodeId": "github.com/go-redis/redis/v9/internal/pool@v9.0.0-beta.1",
+                  "pkgId": "github.com/go-redis/redis/v9/internal/pool@v9.0.0-beta.1",
+                },
+                Object {
+                  "deps": Array [],
+                  "nodeId": "github.com/go-redis/redis/v9/internal/hscan@v9.0.0-beta.1",
+                  "pkgId": "github.com/go-redis/redis/v9/internal/hscan@v9.0.0-beta.1",
+                },
+                Object {
+                  "deps": Array [],
+                  "nodeId": "github.com/go-redis/redis/v9@v9.0.0-beta.1",
+                  "pkgId": "github.com/go-redis/redis/v9@v9.0.0-beta.1",
+                },
+                Object {
+                  "deps": Array [],
+                  "nodeId": "github.com/gorilla/mux@v1.8.0",
+                  "pkgId": "github.com/gorilla/mux@v1.8.0",
+                },
+                Object {
+                  "deps": Array [],
+                  "nodeId": "gopkg.in/yaml.v2@v2.4.0",
+                  "pkgId": "gopkg.in/yaml.v2@v2.4.0",
+                },
+              ],
+              "rootNodeId": "root-node",
+            },
+            "pkgManager": Object {
+              "name": "gomodules",
+            },
+            "pkgs": Array [
+              Object {
+                "id": "testgo@",
+                "info": Object {
+                  "name": "testgo",
+                },
+              },
+              Object {
+                "id": "github.com/ghodss/yaml@v1.0.0",
+                "info": Object {
+                  "name": "github.com/ghodss/yaml",
+                  "version": "v1.0.0",
+                },
+              },
+              Object {
+                "id": "github.com/go-redis/redis/v9/internal/rand@v9.0.0-beta.1",
+                "info": Object {
+                  "name": "github.com/go-redis/redis/v9/internal/rand",
+                  "version": "v9.0.0-beta.1",
+                },
+              },
+              Object {
+                "id": "github.com/go-redis/redis/v9/internal@v9.0.0-beta.1",
+                "info": Object {
+                  "name": "github.com/go-redis/redis/v9/internal",
+                  "version": "v9.0.0-beta.1",
+                },
+              },
+              Object {
+                "id": "github.com/go-redis/redis/v9/internal/proto@v9.0.0-beta.1",
+                "info": Object {
+                  "name": "github.com/go-redis/redis/v9/internal/proto",
+                  "version": "v9.0.0-beta.1",
+                },
+              },
+              Object {
+                "id": "github.com/go-redis/redis/v9/internal/util@v9.0.0-beta.1",
+                "info": Object {
+                  "name": "github.com/go-redis/redis/v9/internal/util",
+                  "version": "v9.0.0-beta.1",
+                },
+              },
+              Object {
+                "id": "github.com/go-redis/redis/v9/internal/pool@v9.0.0-beta.1",
+                "info": Object {
+                  "name": "github.com/go-redis/redis/v9/internal/pool",
+                  "version": "v9.0.0-beta.1",
+                },
+              },
+              Object {
+                "id": "github.com/go-redis/redis/v9/internal/hscan@v9.0.0-beta.1",
+                "info": Object {
+                  "name": "github.com/go-redis/redis/v9/internal/hscan",
+                  "version": "v9.0.0-beta.1",
+                },
+              },
+              Object {
+                "id": "github.com/go-redis/redis/v9@v9.0.0-beta.1",
+                "info": Object {
+                  "name": "github.com/go-redis/redis/v9",
+                  "version": "v9.0.0-beta.1",
+                },
+              },
+              Object {
+                "id": "github.com/gorilla/mux@v1.8.0",
+                "info": Object {
+                  "name": "github.com/gorilla/mux",
+                  "version": "v1.8.0",
+                },
+              },
+              Object {
+                "id": "gopkg.in/yaml.v2@v2.4.0",
+                "info": Object {
+                  "name": "gopkg.in/yaml.v2",
+                  "version": "v2.4.0",
+                },
+              },
+            ],
+            "schemaVersion": "1.3.0",
+          },
+          "type": "depGraph",
+        },
+        Object {
+          "data": "sha256:b7f8424ea2e9e94dd34b972998957f3210b9caeb968cb53088dfadb775feefe1",
+          "type": "imageId",
+        },
+      ],
+      "identity": Object {
+        "targetFile": "/testgo",
+        "type": "gomodules",
+      },
+      "target": Object {
+        "image": "docker-image|testgo-1.18.3.tar",
+      },
+    },
+  ],
+}
+`;
+
+exports[`parse go modules from various versions of compiled binaries go 1.19 1`] = `
+Object {
+  "scanResults": Array [
+    Object {
+      "facts": Array [
+        Object {
+          "data": Object {
+            "graph": Object {
+              "nodes": Array [
+                Object {
+                  "deps": Array [],
+                  "nodeId": "root-node",
+                  "pkgId": "docker-image|testgo-1.19rc1.tar@",
+                },
+              ],
+              "rootNodeId": "root-node",
+            },
+            "pkgManager": Object {
+              "name": "linux",
+              "repositories": Array [
+                Object {
+                  "alias": "unknown:0.0",
+                },
+              ],
+            },
+            "pkgs": Array [
+              Object {
+                "id": "docker-image|testgo-1.19rc1.tar@",
+                "info": Object {
+                  "name": "docker-image|testgo-1.19rc1.tar",
+                  "version": undefined,
+                },
+              },
+            ],
+            "schemaVersion": "1.3.0",
+          },
+          "type": "depGraph",
+        },
+        Object {
+          "data": "sha256:f12d5cc86a0c5c078e16dca419459a91cc555e8cd9ef5750a6b809f2db19a47f",
+          "type": "imageId",
+        },
+        Object {
+          "data": Array [
+            "494db89a6ccd788c2ac1fa68ba421496b221b06242a26b4bb14d88a15fb9ec50/layer.tar",
+          ],
+          "type": "imageLayers",
+        },
+        Object {
+          "data": "2022-07-10T08:49:54.881276343Z",
+          "type": "imageCreationTime",
+        },
+        Object {
+          "data": Array [
+            "sha256:f3b3cf4596949f12573f1fe82d20c44d88cff630caef72661b5da451157082be",
+          ],
+          "type": "rootFs",
+        },
+      ],
+      "identity": Object {
+        "args": Object {
+          "platform": "linux/amd64",
+        },
+        "type": "linux",
+      },
+      "target": Object {
+        "image": "docker-image|testgo-1.19rc1.tar",
+      },
+    },
+    Object {
+      "facts": Array [
+        Object {
+          "data": Object {
+            "graph": Object {
+              "nodes": Array [
+                Object {
+                  "deps": Array [
+                    Object {
+                      "nodeId": "github.com/ghodss/yaml@v1.0.0",
+                    },
+                    Object {
+                      "nodeId": "github.com/go-redis/redis/v9/internal/rand@v9.0.0-beta.1",
+                    },
+                    Object {
+                      "nodeId": "github.com/go-redis/redis/v9/internal@v9.0.0-beta.1",
+                    },
+                    Object {
+                      "nodeId": "github.com/go-redis/redis/v9/internal/proto@v9.0.0-beta.1",
+                    },
+                    Object {
+                      "nodeId": "github.com/go-redis/redis/v9/internal/util@v9.0.0-beta.1",
+                    },
+                    Object {
+                      "nodeId": "github.com/go-redis/redis/v9/internal/pool@v9.0.0-beta.1",
+                    },
+                    Object {
+                      "nodeId": "github.com/go-redis/redis/v9/internal/hscan@v9.0.0-beta.1",
+                    },
+                    Object {
+                      "nodeId": "github.com/go-redis/redis/v9@v9.0.0-beta.1",
+                    },
+                    Object {
+                      "nodeId": "github.com/gorilla/mux@v1.8.0",
+                    },
+                    Object {
+                      "nodeId": "gopkg.in/yaml.v2@v2.4.0",
+                    },
+                  ],
+                  "nodeId": "root-node",
+                  "pkgId": "testgo@",
+                },
+                Object {
+                  "deps": Array [],
+                  "nodeId": "github.com/ghodss/yaml@v1.0.0",
+                  "pkgId": "github.com/ghodss/yaml@v1.0.0",
+                },
+                Object {
+                  "deps": Array [],
+                  "nodeId": "github.com/go-redis/redis/v9/internal/rand@v9.0.0-beta.1",
+                  "pkgId": "github.com/go-redis/redis/v9/internal/rand@v9.0.0-beta.1",
+                },
+                Object {
+                  "deps": Array [],
+                  "nodeId": "github.com/go-redis/redis/v9/internal@v9.0.0-beta.1",
+                  "pkgId": "github.com/go-redis/redis/v9/internal@v9.0.0-beta.1",
+                },
+                Object {
+                  "deps": Array [],
+                  "nodeId": "github.com/go-redis/redis/v9/internal/proto@v9.0.0-beta.1",
+                  "pkgId": "github.com/go-redis/redis/v9/internal/proto@v9.0.0-beta.1",
+                },
+                Object {
+                  "deps": Array [],
+                  "nodeId": "github.com/go-redis/redis/v9/internal/util@v9.0.0-beta.1",
+                  "pkgId": "github.com/go-redis/redis/v9/internal/util@v9.0.0-beta.1",
+                },
+                Object {
+                  "deps": Array [],
+                  "nodeId": "github.com/go-redis/redis/v9/internal/pool@v9.0.0-beta.1",
+                  "pkgId": "github.com/go-redis/redis/v9/internal/pool@v9.0.0-beta.1",
+                },
+                Object {
+                  "deps": Array [],
+                  "nodeId": "github.com/go-redis/redis/v9/internal/hscan@v9.0.0-beta.1",
+                  "pkgId": "github.com/go-redis/redis/v9/internal/hscan@v9.0.0-beta.1",
+                },
+                Object {
+                  "deps": Array [],
+                  "nodeId": "github.com/go-redis/redis/v9@v9.0.0-beta.1",
+                  "pkgId": "github.com/go-redis/redis/v9@v9.0.0-beta.1",
+                },
+                Object {
+                  "deps": Array [],
+                  "nodeId": "github.com/gorilla/mux@v1.8.0",
+                  "pkgId": "github.com/gorilla/mux@v1.8.0",
+                },
+                Object {
+                  "deps": Array [],
+                  "nodeId": "gopkg.in/yaml.v2@v2.4.0",
+                  "pkgId": "gopkg.in/yaml.v2@v2.4.0",
+                },
+              ],
+              "rootNodeId": "root-node",
+            },
+            "pkgManager": Object {
+              "name": "gomodules",
+            },
+            "pkgs": Array [
+              Object {
+                "id": "testgo@",
+                "info": Object {
+                  "name": "testgo",
+                },
+              },
+              Object {
+                "id": "github.com/ghodss/yaml@v1.0.0",
+                "info": Object {
+                  "name": "github.com/ghodss/yaml",
+                  "version": "v1.0.0",
+                },
+              },
+              Object {
+                "id": "github.com/go-redis/redis/v9/internal/rand@v9.0.0-beta.1",
+                "info": Object {
+                  "name": "github.com/go-redis/redis/v9/internal/rand",
+                  "version": "v9.0.0-beta.1",
+                },
+              },
+              Object {
+                "id": "github.com/go-redis/redis/v9/internal@v9.0.0-beta.1",
+                "info": Object {
+                  "name": "github.com/go-redis/redis/v9/internal",
+                  "version": "v9.0.0-beta.1",
+                },
+              },
+              Object {
+                "id": "github.com/go-redis/redis/v9/internal/proto@v9.0.0-beta.1",
+                "info": Object {
+                  "name": "github.com/go-redis/redis/v9/internal/proto",
+                  "version": "v9.0.0-beta.1",
+                },
+              },
+              Object {
+                "id": "github.com/go-redis/redis/v9/internal/util@v9.0.0-beta.1",
+                "info": Object {
+                  "name": "github.com/go-redis/redis/v9/internal/util",
+                  "version": "v9.0.0-beta.1",
+                },
+              },
+              Object {
+                "id": "github.com/go-redis/redis/v9/internal/pool@v9.0.0-beta.1",
+                "info": Object {
+                  "name": "github.com/go-redis/redis/v9/internal/pool",
+                  "version": "v9.0.0-beta.1",
+                },
+              },
+              Object {
+                "id": "github.com/go-redis/redis/v9/internal/hscan@v9.0.0-beta.1",
+                "info": Object {
+                  "name": "github.com/go-redis/redis/v9/internal/hscan",
+                  "version": "v9.0.0-beta.1",
+                },
+              },
+              Object {
+                "id": "github.com/go-redis/redis/v9@v9.0.0-beta.1",
+                "info": Object {
+                  "name": "github.com/go-redis/redis/v9",
+                  "version": "v9.0.0-beta.1",
+                },
+              },
+              Object {
+                "id": "github.com/gorilla/mux@v1.8.0",
+                "info": Object {
+                  "name": "github.com/gorilla/mux",
+                  "version": "v1.8.0",
+                },
+              },
+              Object {
+                "id": "gopkg.in/yaml.v2@v2.4.0",
+                "info": Object {
+                  "name": "gopkg.in/yaml.v2",
+                  "version": "v2.4.0",
+                },
+              },
+            ],
+            "schemaVersion": "1.3.0",
+          },
+          "type": "depGraph",
+        },
+        Object {
+          "data": "sha256:f12d5cc86a0c5c078e16dca419459a91cc555e8cd9ef5750a6b809f2db19a47f",
+          "type": "imageId",
+        },
+      ],
+      "identity": Object {
+        "targetFile": "/testgo",
+        "type": "gomodules",
+      },
+      "target": Object {
+        "image": "docker-image|testgo-1.19rc1.tar",
+      },
+    },
+  ],
+}
+`;
